@@ -3,8 +3,11 @@ import * as React from "react";
 import { makeStyles } from "@material-ui/core";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
+import MediaCard from "./ProjectCard";
 import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { ClassSharp } from "@material-ui/icons";
+import Button from "@mui/material/Button";
 import CardMedia from "@mui/material/CardMedia";
 import Card from "@mui/material/Card";
 

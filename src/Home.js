@@ -4,7 +4,9 @@ import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/core";
 import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
+import MediaCard from "./ProjectCard";
 import ProjectCard  from "./ProjectCard";
+import { BrowserRouter as Route, Router, Switch, Link } from "react-router-dom";
 
 const useStyle = makeStyles((theme) => ({
   hero: {

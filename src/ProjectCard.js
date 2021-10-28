@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { makeStyles } from '@material-ui/core';
 import { CardActionArea } from '@mui/material';
-import { BrowserRouter as Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const useStyle = makeStyles((theme)=>({
 card:{
     maxWidth:"100%",

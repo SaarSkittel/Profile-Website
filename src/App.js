@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {BrowserRouter as Route, Router, Switch } from 'react-router-dom';
+import {BrowserRouter as Route, Router, Switch,Link } from 'react-router-dom';
 import Home from "./Home";
 import Maestro from "./Maestro";
 import MusicPlayer from './MusicPlayer';

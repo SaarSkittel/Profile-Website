@@ -10,6 +10,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import { makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import Box from "@mui/material/Box";
 import { useHistory } from 'react-router-dom';
 const useStyle = makeStyles((theme) => ({
    color:{
