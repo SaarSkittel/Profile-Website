@@ -3,11 +3,8 @@ import * as React from "react";
 import { makeStyles } from "@material-ui/core";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
-import MediaCard from "./ProjectCard";
 import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { ClassSharp } from "@material-ui/icons";
-import Button from "@mui/material/Button";
 import CardMedia from "@mui/material/CardMedia";
 import Card from "@mui/material/Card";
 
@@ -52,8 +49,8 @@ const FacebookDesktopApp = () => {
   return (
     <div className="facebook">
       <Box className={classes.hero}>
-        <Box> Facebook Desktop App </Box>
-      </Box>
+        <Box> Facebook Desktop App </Box>{" "}
+      </Box>{" "}
       <Container className={classes.contentStyle}>
         <Chip
           clickable
@@ -63,39 +60,37 @@ const FacebookDesktopApp = () => {
           label="See Code"
           variant="outlined"
         />
-      </Container>
+      </Container>{" "}
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          Introduction
-        </Typography>
+          Introduction{" "}
+        </Typography>{" "}
         <Typography variant="body2" color="text.secondary">
-          Facebook desktop app created in C# as a part of design pattern course.
-        </Typography>
-      </Container>
-
+          Facebook desktop app created in C# as a part of design pattern course.{" "}
+        </Typography>{" "}
+      </Container>{" "}
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          Concept
-        </Typography>
+          Concept{" "}
+        </Typography>{" "}
         <Typography variant="body2" color="text.secondary">
           This app main purpose is to implement and understand common design
-          patterns. This app uses Facebook API and Facebook wrapper made by the
-          course lecturer.
-        </Typography>
-      </Container>
-
+          patterns.This app uses Facebook API and Facebook wrapper made by the
+          course lecturer.{" "}
+        </Typography>{" "}
+      </Container>{" "}
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          App Flow
-        </Typography>
+          App Flow{" "}
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
-            When you first run the app there greeted with the sign in. after
+            When you first run the app there greeted with the sign in .after
             signing in you will be presented with your home page that consists
             of your liked pages, favorite teams, friends, events, friends
-            birthday, albums, posts and the option to send a post.
-          </Typography>
-        </Container>
+            birthday, albums, posts and the option to send a post.{" "}
+          </Typography>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Card>
             <CardMedia
@@ -104,32 +99,29 @@ const FacebookDesktopApp = () => {
               image="/images/facebook/home.png"
               alt="Home"
             />
-          </Card>
-        </Container>
-      </Container>
-
+          </Card>{" "}
+        </Container>{" "}
+      </Container>{" "}
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          Design Patterns Used
-        </Typography>
-        <Container className={classes.contentStyle}></Container>
-
+          Design Patterns Used{" "}
+        </Typography>{" "}
+        <Container className={classes.contentStyle}> </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Static Factory Class{" "}
-          </Typography>
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
               In the app there is polymorph clock family for both event count
-              down and birthday count down. That is why we created a static
-              class that will be in charge of creating the clock with a static
-              method.
-            </Typography>
-          </Container>
+              down and birthday count down.That is why we created a static class
+              that will be in charge of creating the clock with a static method.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -137,12 +129,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/factory_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -150,26 +142,25 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/factory_class.png"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
-            Façade
-          </Typography>
+            Façade{" "}
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
               To make the logic layer encapsulated from the UI there was a need
-              to create a façade class. This class handles all the subsystems
-              (like User, LoginResult, Clock and LoginDetails) so the UI uses
-              only simplified actions.
-            </Typography>
-          </Container>
+              to create a façade class.This class handles all the
+              subsystems(like User, LoginResult, Clock and LoginDetails) so the
+              UI uses only simplified actions.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -177,12 +168,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/facade_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -190,25 +181,24 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/facade_class.png"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Adapter{" "}
-          </Typography>
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
-              The app uses collections which the UI can’t use. So there was a
+              The app uses collections which the UI can’ t use.So there was a
               need to create an adapter between the collections to a format that
-              the UI can use.
-            </Typography>
-          </Container>
+              the UI can use.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -216,12 +206,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/adapter_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -229,26 +219,25 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/adapter_class.png"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Strategy{" "}
-          </Typography>
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
-              In the app there are different types of collections. So to avoid
+              In the app there are different types of collections.So to avoid
               duplicating code when using the adapter we used strategy to
               maintain the adapting relevant and to assist in further
-              maintenance.
-            </Typography>
-          </Container>
+              maintenance.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -256,12 +245,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/strategy_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -269,24 +258,23 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/startegy_class.jpg"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Observer{" "}
-          </Typography>
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
               The observer was used in order inform the UI that a change was
-              made in the user data.
-            </Typography>
-          </Container>
+              made in the user data.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -294,12 +282,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/observer_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -307,24 +295,23 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/observer_class.png"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Decorator{" "}
-          </Typography>
+          </Typography>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="body2" color="text.secondary">
               We used decorator to inform visually when an update was made by
-              blinking and making a sound where a change was made.
-            </Typography>
-          </Container>
+              blinking and making a sound where a change was made.{" "}
+            </Typography>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Sequence Diagram
-            </Typography>
+              Sequence Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -332,12 +319,12 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/decorator_seq.png"
                 alt="factory_seq"
               />
-            </Card>
-          </Container>
+            </Card>{" "}
+          </Container>{" "}
           <Container className={classes.contentStyle}>
             <Typography variant="h6" color="text.secondary">
-              Class Diagram
-            </Typography>
+              Class Diagram{" "}
+            </Typography>{" "}
             <Card>
               <CardMedia
                 paddingTop="100px"
@@ -345,10 +332,10 @@ const FacebookDesktopApp = () => {
                 image="/images/facebook/decorator_class.png"
                 alt="Maestro Home"
               />
-            </Card>
-          </Container>
-        </Container>
-      </Container>
+            </Card>{" "}
+          </Container>{" "}
+        </Container>{" "}
+      </Container>{" "}
     </div>
   );
 };

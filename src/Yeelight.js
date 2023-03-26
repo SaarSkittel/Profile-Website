@@ -3,7 +3,6 @@ import * as React from "react";
 import { makeStyles } from "@material-ui/core";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
-import { ClassSharp } from "@material-ui/icons";
 import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Button from "@mui/material/Button";
@@ -50,8 +49,8 @@ const Yeelight = () => {
   return (
     <div className="maestro">
       <Box className={classes.hero}>
-        <Box> Yeelight Catalog App</Box>
-      </Box>
+        <Box> Yeelight Catalog App </Box>{" "}
+      </Box>{" "}
       <Container className={classes.contentStyle}>
         <Chip
           clickable
@@ -61,24 +60,23 @@ const Yeelight = () => {
           label="See Code"
           variant="outlined"
         />
-      </Container>
+      </Container>{" "}
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          Introduction
-        </Typography>
+          Introduction{" "}
+        </Typography>{" "}
         <Typography variant="body2" color="text.secondary">
           This app was my project in android 1. The app was written in Java
-          using android studio.
-        </Typography>
+          using android studio.{" "}
+        </Typography>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
-          App Flow
-        </Typography>
+          App Flow{" "}
+        </Typography>{" "}
         <Typography gutterBottom variant="h5" component="div">
           Main screen{" "}
-        </Typography>
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -88,14 +86,13 @@ const Yeelight = () => {
               image="/images/yeelight/main.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h5" component="div">
           Menu Screen{" "}
-        </Typography>
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -105,20 +102,19 @@ const Yeelight = () => {
               image="/images/yeelight/menu.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
-            Has all the options that the user can do in the app such as: go to
-            product list, contact us, schedule a meeting and enter a complaint.
-          </Typography>
-        </Container>
+            Has all the options that the user can do inthe app such as: go to
+            product list, contact us, schedule a meeting and enter a complaint.{" "}
+          </Typography>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h5" component="div">
-          Products Screen
-        </Typography>
+          Products Screen{" "}
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -128,19 +124,18 @@ const Yeelight = () => {
               image="/images/yeelight/products.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
-            Consist of a recycle view with some of yeelight’s products.
-          </Typography>
-        </Container>
+            Consist of a recycle view with some of yeelight’ s products.{" "}
+          </Typography>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h5" component="div">
-          Contact Us
-        </Typography>
+          Contact Us{" "}
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -150,21 +145,20 @@ const Yeelight = () => {
               image="/images/yeelight/contact.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
-            Has the Activity hours, to save the company’s number directly into
+            Has the Activity hours, to save the company’ s number directly into
             the phones contacts, navigate to the store by opening waze with the
-            destination and to make a direct call to the company.
-          </Typography>
-        </Container>
+            destination and to make a direct call to the company.{" "}
+          </Typography>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h5" component="div">
-          Schedule a Meeting
-        </Typography>
+          Schedule a Meeting{" "}
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -174,20 +168,19 @@ const Yeelight = () => {
               image="/images/yeelight/meeting.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
-            Let’s you decide when you want to make a meeting and saves it in the
-            phones calendar.
-          </Typography>
-        </Container>
+            Let’ s you decide when you want to make a meeting and saves it in
+            the phones calendar.{" "}
+          </Typography>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h5" component="div">
-          Make a Complaint
-        </Typography>
+          Make a Complaint{" "}
+        </Typography>{" "}
         <Container className={classes.contentStyle}>
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -197,23 +190,22 @@ const Yeelight = () => {
               image="/images/yeelight/complaint.jpg"
               alt="Maestro Home"
             />
-          </Card>
-        </Container>
+          </Card>{" "}
+        </Container>{" "}
         <Container className={classes.contentStyle}>
           <Typography variant="body2" color="text.secondary">
             In this screen there are two fields to write the subject and the
             complaint and the option to add a picture from the device or take a
-            photo from the camera. When clicking send it will open your mail and
-            enter the detail to the mail
-          </Typography>
-        </Container>
+            photo from the camera.When clicking send it will open your mail and
+            enter the detail to the mail{" "}
+          </Typography>{" "}
+        </Container>{" "}
       </Container>
-
       <Container className={classes.contentStyle}>
         <Button target="_blank" href="http://www.google.com/">
-          Google
-        </Button>
-      </Container>
+          Google{" "}
+        </Button>{" "}
+      </Container>{" "}
     </div>
   );
 };

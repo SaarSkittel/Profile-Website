@@ -10,7 +10,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import { makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import Box from "@mui/material/Box";
 import { useHistory } from "react-router-dom";
 const useStyle = makeStyles((theme) => ({
   color: {
@@ -34,7 +33,7 @@ export default function Drawer() {
     <div>
       <IconButton edge="start" color="inherit" onClick={() => setOpen(true)}>
         <MenuIcon />
-      </IconButton>
+      </IconButton>{" "}
       <SwipeableDrawer
         anchor="left"
         color="primary"
@@ -45,19 +44,19 @@ export default function Drawer() {
           <List>
             <ListItem button onClick={() => history.goBack()}>
               <ListItemIcon>
-                <HomeIcon className={classes.color} />
-              </ListItemIcon>
+                <HomeIcon className={classes.color} />{" "}
+              </ListItemIcon>{" "}
               <ListItemText className={classes.color} primary="Home" />
-            </ListItem>
+            </ListItem>{" "}
             <ListItem button component={AboutMeLink}>
               <ListItemIcon>
-                <InfoIcon className={classes.color} />
-              </ListItemIcon>
+                <InfoIcon className={classes.color} />{" "}
+              </ListItemIcon>{" "}
               <ListItemText className={classes.color} primary="About Me" />
-            </ListItem>
-          </List>
-        </div>
-      </SwipeableDrawer>
+            </ListItem>{" "}
+          </List>{" "}
+        </div>{" "}
+      </SwipeableDrawer>{" "}
     </div>
   );
 }
