@@ -37,13 +37,15 @@ const AboutMe=()=>{
                 <Typography className={classes.subtitleStyle} variant="h5">Coding Lenguages and Development Tools I know:</Typography>
                 <Divider/>
                 <Container className={classes.contentStyle}>
-                    <Typography variant="h6">•	C.</Typography>
+                    <Typography variant="h6">•	Python, Django, Django REST Framework, Selenium, OpenCV Framework and Machine Learning using sklearn.</Typography>      
+                    <Typography variant="h6">•	JavaScript, NodeJS, ExpressJS and ReactJS.</Typography>
                     <Typography variant="h6">•	C++ and basic knowledge of DSP using JUCE Framework (self-thought).</Typography>
                     <Typography variant="h6">•	C# and .NET Framework.</Typography>
                     <Typography variant="h6">•	Java, Java SWING and Java Android development using Android Studio.</Typography>
-                    <Typography variant="h6">•	Python, OpenCV Framework and Machine Learning using sklearn.</Typography>      
-                    <Typography variant="h6">•	SQL – SQLite and MySQL.</Typography>      
-                    <Typography variant="h6">•	Using container with Docker.</Typography>
+                    <Typography variant="h6">•	C.</Typography>
+                    <Typography variant="h6">•	SQL – SQLite, Postgresql and MySQL.</Typography>      
+                    <Typography variant="h6">•	DevOps- Docker, Kubernetes, Helm, Jenkins and GitHub.</Typography>
+                    <Typography variant="h6">•	AWS- EC2, ECS, ECR, IAM, API Gateway and VPC</Typography>
                     <Typography variant="h6">•	Working with Jira.</Typography> 
                     <Box className={classes.contentStyle}>
                     <Chip

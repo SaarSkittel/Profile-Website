@@ -68,7 +68,7 @@ const FacebookDesktopApp = () => {
         <Typography variant="body2" color="text.secondary">
           Facebook desktop app created in C# as a part of design pattern course.{" "}
         </Typography>{" "}
-      </Container>{" "}
+      </Container>
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
           Concept{" "}
@@ -78,7 +78,7 @@ const FacebookDesktopApp = () => {
           patterns.This app uses Facebook API and Facebook wrapper made by the
           course lecturer.{" "}
         </Typography>{" "}
-      </Container>{" "}
+      </Container>
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
           App Flow{" "}
@@ -101,12 +101,12 @@ const FacebookDesktopApp = () => {
             />
           </Card>{" "}
         </Container>{" "}
-      </Container>{" "}
+      </Container>
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
           Design Patterns Used{" "}
         </Typography>{" "}
-        <Container className={classes.contentStyle}> </Container>{" "}
+        <Container className={classes.contentStyle}> </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Static Factory Class{" "}
@@ -144,7 +144,7 @@ const FacebookDesktopApp = () => {
               />
             </Card>{" "}
           </Container>{" "}
-        </Container>{" "}
+        </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Façade{" "}
@@ -183,7 +183,7 @@ const FacebookDesktopApp = () => {
               />
             </Card>{" "}
           </Container>{" "}
-        </Container>{" "}
+        </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Adapter{" "}
@@ -221,7 +221,7 @@ const FacebookDesktopApp = () => {
               />
             </Card>{" "}
           </Container>{" "}
-        </Container>{" "}
+        </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Strategy{" "}
@@ -260,7 +260,7 @@ const FacebookDesktopApp = () => {
               />
             </Card>{" "}
           </Container>{" "}
-        </Container>{" "}
+        </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Observer{" "}
@@ -297,7 +297,7 @@ const FacebookDesktopApp = () => {
               />
             </Card>{" "}
           </Container>{" "}
-        </Container>{" "}
+        </Container>
         <Container className={classes.contentStyle}>
           <Typography gutterBottom variant="h5" component="div">
             Decorator{" "}
