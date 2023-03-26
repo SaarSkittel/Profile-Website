@@ -37,7 +37,7 @@ const AboutMe=()=>{
                 <Typography className={classes.subtitleStyle} variant="h5">Coding Lenguages and Development Tools I know:</Typography>
                 <Divider/>
                 <Container className={classes.contentStyle}>
-                    <Typography variant="h6">•	Python, Django, Django REST Framework, Selenium, OpenCV Framework and Machine Learning using sklearn.</Typography>      
+                    <Typography variant="h6">•	Python, Django, Django REST Framework, Selenium, Pandas, Numpy, OpenCV Framework and Machine Learning using sklearn.</Typography>      
                     <Typography variant="h6">•	JavaScript, NodeJS, ExpressJS and ReactJS.</Typography>
                     <Typography variant="h6">•	C++ and basic knowledge of DSP using JUCE Framework (self-thought).</Typography>
                     <Typography variant="h6">•	C# and .NET Framework.</Typography>

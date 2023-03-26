@@ -12,7 +12,7 @@ import Links from "./Links";
 import AboutMe from "./AboutMe";
 import MessagingSystem from "./MessagingAPI";
 import ScalableServing from "./ScalableServing";
-
+import GenderClassification from "./GenderClassification";
 function App() {
   return (
     <Router history={history}>
@@ -22,38 +22,43 @@ function App() {
           <Switch>
             <Route exact path="/about_me">
               <AboutMe />
-            </Route>{" "}
+            </Route>
             <Route exact path="/messaging_system">
               <MessagingSystem />
-            </Route>{" "}
+            </Route>
             <Route exact path="/scaleable_serving">
               <ScalableServing />
-            </Route>{" "}
-            <Route exact path="/linkedin_bot"></Route>{" "}
+            </Route>
+            <Route exact path="/gender_classification">
+              <GenderClassification/>
+            </Route>
+            <Route exact path="/linkedin_bot">
+
+            </Route>
             <Route exact path="/facebook">
               <FacebookDesktopApp />
-            </Route>{" "}
+            </Route>
             <Route exact path="/yeelight">
               <Yeelight />
-            </Route>{" "}
+            </Route>
             <Route exact path="/who_wants_to_be_a_programmer">
               <WhoWantsToBeAProgrammer />
-            </Route>{" "}
+            </Route>
             <Route exact path="/music_player">
               <MusicPlayer />
-            </Route>{" "}
+            </Route>
             <Route exact path="/maestro">
               <Maestro />
-            </Route>{" "}
+            </Route>
             <Route exact path="/">
               <Home />
-            </Route>{" "}
-          </Switch>{" "}
-        </div>{" "}
+            </Route>
+          </Switch>
+        </div>
         <div className="links">
           <Links />
-        </div>{" "}
-      </div>{" "}
+        </div>
+      </div>
     </Router>
   );
 }
