@@ -11,48 +11,51 @@ import InfoIcon from "@mui/icons-material/Info";
 import { makeStyles } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 const useStyle = makeStyles((theme) => ({
-   color:{
-       color:"#fff"
-       
-   },
-   background:{
-      backgroundColor:'#000'
-   },
-   list:{
-       width: 250,
-       backgroundColor: '#000',
-       height: "100%"
-    
-   }
+  color: {
+    color: "#fff",
+  },
+  background: {
+    backgroundColor: "#000",
+  },
+  list: {
+    width: 250,
+    backgroundColor: "#000",
+    height: "100%",
+  },
 }));
 export default function Drawer() {
   const history = useHistory();
-  const classes=useStyle();
+  const classes = useStyle();
   const [open, setOpen] = useState(false);
-  const AboutMeLink= props=> <Link to="/about_me" {...props} />
+  const AboutMeLink = (props) => <Link to="/about_me" {...props} />;
   return (
     <div>
-      <IconButton  edge="start" color="inherit"  onClick={() => setOpen(true)}>
+      <IconButton edge="start" color="inherit" onClick={() => setOpen(true)}>
         <MenuIcon />
       </IconButton>
-      <SwipeableDrawer anchor="left" color="primary" open={open} onClose={() => setOpen(false)}>
-          <div className={classes.list}>
-        <List >
-          <ListItem button onClick={() => history.goBack()}>
-          <ListItemIcon>
-                <HomeIcon className={classes.color}  />
+      <SwipeableDrawer
+        anchor="left"
+        color="primary"
+        open={open}
+        onClose={() => setOpen(false)}
+      >
+        <div className={classes.list}>
+          <List>
+            <ListItem button onClick={() => history.goBack()}>
+              <ListItemIcon>
+                <HomeIcon className={classes.color} />
               </ListItemIcon>
-            <ListItemText className={classes.color} primary="Home"/>  
-          </ListItem>
-          <ListItem button component= {AboutMeLink}>
-          <ListItemIcon>
+              <ListItemText className={classes.color} primary="Home" />
+            </ListItem>
+            <ListItem button component={AboutMeLink}>
+              <ListItemIcon>
                 <InfoIcon className={classes.color} />
               </ListItemIcon>
-            <ListItemText className={classes.color} primary="About Me"/>
-          </ListItem>
-        </List>
+              <ListItemText className={classes.color} primary="About Me" />
+            </ListItem>
+          </List>
         </div>
       </SwipeableDrawer>
     </div>
