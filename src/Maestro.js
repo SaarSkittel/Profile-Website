@@ -5,10 +5,7 @@ import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
 import Chip from "@mui/material/Chip";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Button from "@mui/material/Button";
 import CardMedia from "@mui/material/CardMedia";
-
-import Stack from "@mui/material/Stack";
 import Card from "@mui/material/Card";
 const useStyle = makeStyles((theme) => ({
   hero: {
@@ -51,10 +48,17 @@ const Maestro = () => {
   return (
     <div className="maestro">
       <Box className={classes.hero}>
-          <Box> Maestro </Box>
+        <Box> Maestro </Box>
       </Box>
       <Container className={classes.contentStyle}>
-        <Chip clickable component="a" href="https://github.com/SaarSkittel/Maestro" icon={<GitHubIcon />} label="See Code" variant="outlined" />
+        <Chip
+          clickable
+          component="a"
+          href="https://github.com/SaarSkittel/Maestro"
+          icon={<GitHubIcon />}
+          label="See Code"
+          variant="outlined"
+        />
       </Container>
       <Container className={classes.contentStyle}>
         <Typography gutterBottom variant="h4" component="div">
@@ -221,9 +225,7 @@ const Maestro = () => {
           </Typography>
         </Container>
       </Container>
-      <Container className={classes.contentStyle}>
-    
-      </Container>
+      <Container className={classes.contentStyle}></Container>
     </div>
   );
 };

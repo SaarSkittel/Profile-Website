@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import { makeStyles } from "@material-ui/core";
 import { Container } from "@mui/material";
 import { Grid } from "@mui/material";
-import MediaCard from "./ProjectCard";
 import ProjectCard from "./ProjectCard";
 import { BrowserRouter as Route, Router, Switch, Link } from "react-router-dom";
 
@@ -40,12 +39,12 @@ const Home = () => {
   return (
     <div className="home">
       <Box className={classes.hero}>
-        <Box> Saar Skittel </Box>{" "}
-      </Box>{" "}
+        <Box> Saar Skittel </Box>
+      </Box>
       <Container maxWidth="lg" className={classes.projectContainer}>
         <Typography variant="h4" className={classes.projectTittle}>
-          Project{" "}
-        </Typography>{" "}
+          Project
+        </Typography>
         <Grid container spacing={3} marginBottom="100px">
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
@@ -54,7 +53,7 @@ const Home = () => {
               description="A fully scalable RESTful messaging api that runs on Docker written in Python using Django and Django Rest Framework."
               link="/messaging_system"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Scalable Serving Project"
@@ -62,7 +61,7 @@ const Home = () => {
               description="A full-blown ecosystem runs on Docker using ReactJS, NodeJS, Django, MySQL, Graphite and Grafana."
               link="/scaleable_serving"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Maestro"
@@ -70,7 +69,7 @@ const Home = () => {
               description="Music learning app developed in Android Studio using Java."
               link="/maestro"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Music Player"
@@ -78,7 +77,7 @@ const Home = () => {
               description="Music player app developed in Android Studio using Java."
               link="/music_player"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Who Want's To Be A Programmer"
@@ -86,7 +85,7 @@ const Home = () => {
               description="Programming trivia game developed in Android Studio using Java."
               link="/who_wants_to_be_a_programmer"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Facebook Desktop App"
@@ -94,7 +93,7 @@ const Home = () => {
               description="Facebook desktop app developed in C#."
               link="/facebook"
             />
-          </Grid>{" "}
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Yeelight Catalog App"
@@ -102,9 +101,9 @@ const Home = () => {
               description="A catalog app developed in Android Studio using Java."
               link="/yeelight"
             />
-          </Grid>{" "}
-        </Grid>{" "}
-      </Container>{" "}
+          </Grid>
+        </Grid>
+      </Container>
     </div>
   );
 };
