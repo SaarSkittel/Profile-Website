@@ -49,7 +49,16 @@ const Home = () => {
         >
           Project
         </Typography>
+        
         <Grid container spacing={3} marginBottom="100px">
+        <Grid item xs={12} sm={6} md={4}>
+            <ProjectCard
+              name="Messaging System"
+              image="./images/messaging_api/messaging diagram.png"
+              description="A fully scalable RESTful messaging api that runs on Docker written in Python using Django and Django Rest Framework."
+              link="/messaging_system"
+            />
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <ProjectCard
               name="Maestro"

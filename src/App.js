@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {BrowserRouter as Route, Router, Switch,Link } from 'react-router-dom';
+import {BrowserRouter as Route, Router, Switch } from 'react-router-dom';
 import Home from "./Home";
 import Maestro from "./Maestro";
 import MusicPlayer from './MusicPlayer';
@@ -10,6 +10,7 @@ import Yeelight from "./Yeelight"
 import FacebookDesktopApp from "./FacebookDesktopApp"
 import Links from './Links';
 import AboutMe from "./AboutMe";
+import MessagingSystem from "./MessagingAPI"
 
 function App() {
   return (
@@ -21,6 +22,15 @@ function App() {
           <Route exact path='/about_me'>
               <AboutMe />
             </Route>
+          <Route exact path='/messaging_system'>
+              <MessagingSystem/>
+          </Route>
+          <Route exact path='/scaleable_serving'>
+            
+          </Route>
+          <Route exact path='/linkedin_bot'>
+            
+          </Route>
           <Route exact path='/facebook'>
               <FacebookDesktopApp />
             </Route>
